@@ -22,7 +22,7 @@ root = tk.Tk()
 root.title("Secure login")
 root.geometry("800x600")
 
-# Set window icon (replace 'app_icon.ico' with your icon file)
+# Set window icon
 try:
     root.iconbitmap('icon.ico')
 except Exception as e:
